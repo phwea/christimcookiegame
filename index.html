@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christmas Cookie Themes</title>
+    <title>cookies</title>
     <style>
         * {
             margin: 0;
@@ -17,85 +17,19 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: #fafafa;
-            color: #333;
-        }
-        
-        .container {
-            text-align: center;
-            padding: 2rem;
-            max-width: 600px;
+            background: #f4e8d8;
+            color: #8b6f47;
         }
         
         h1 {
-            font-size: 2rem;
-            font-weight: 400;
-            margin-bottom: 3rem;
-            color: #222;
-        }
-        
-        .cookie-suggestion {
-            font-size: 1.5rem;
+            font-size: 4rem;
             font-weight: 300;
-            margin: 2rem 0;
-            padding: 2rem;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-        
-        button {
-            background: #333;
-            color: white;
-            border: none;
-            padding: 0.75rem 2rem;
-            font-size: 1rem;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: background 0.2s;
-        }
-        
-        button:hover {
-            background: #555;
-        }
-        
-        .theme {
-            color: #888;
-            font-size: 0.9rem;
-            margin-top: 0.5rem;
+            letter-spacing: 0.1em;
+            text-shadow: 2px 2px 4px rgba(139, 111, 71, 0.1);
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Christmas Cookie Themes</h1>
-        <div class="cookie-suggestion">
-            <div id="cookie-name">🍪 Click below for a suggestion</div>
-            <div class="theme" id="theme-name"></div>
-        </div>
-        <button onclick="suggestCookie()">Suggest Cookie</button>
-    </div>
-    
-    <script>
-        const cookies = [
-            { name: 'Snowflake Sugar Cookies', theme: 'Winter Wonderland' },
-            { name: 'Gingerbread Stars', theme: 'Classic Christmas' },
-            { name: 'Peppermint Bark Cookies', theme: 'Candy Cane Lane' },
-            { name: 'Eggnog Snickerdoodles', theme: 'Cozy Fireside' },
-            { name: 'Cranberry White Chocolate', theme: 'Festive Red & White' },
-            { name: 'Hot Cocoa Cookies', theme: 'Warm & Sweet' },
-            { name: 'Cinnamon Reindeer', theme: 'Santa\'s Workshop' },
-            { name: 'Orange Spice Rounds', theme: 'Rustic Christmas' },
-            { name: 'Chocolate Peppermint', theme: 'North Pole' },
-            { name: 'Vanilla Holly Cookies', theme: 'Traditional Green' }
-        ];
-        
-        function suggestCookie() {
-            const random = Math.floor(Math.random() * cookies.length);
-            const cookie = cookies[random];
-            document.getElementById('cookie-name').textContent = '🍪 ' + cookie.name;
-            document.getElementById('theme-name').textContent = 'Theme: ' + cookie.theme;
-        }
-    </script>
+    <h1>cookies</h1>
 </body>
 </html>
